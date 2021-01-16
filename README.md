@@ -1,12 +1,7 @@
-#Baa Maza Food App
+# Baa Maza Food App
 
-#screen
-
-# Screenshots
+# Screen
 ![](src/icon/screenshot.gif)
-
-
-
 
 
 # Getting Started with Create React App
