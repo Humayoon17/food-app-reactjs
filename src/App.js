@@ -14,6 +14,7 @@ import Card from './components/Card';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Button } from '@material-ui/core';
 import CloseIcon from '@material-ui/icons/Close';
+import icon from './icon/icon.svg';
 
 function App() {
   // refs for controlling elements
@@ -129,7 +130,10 @@ function App() {
     <div className='App'>
       <div className='left-side' ref={sidebarRef}>
         <div className='title'>
-          <h3>Delishly</h3>
+          <div className='icon'>
+            <img src={icon} alt='' />
+            <h4>Baa Maza</h4>
+          </div>
           <Button onClick={closeSidebar} className='btn-close-sidebar'>
             <CloseIcon />
           </Button>

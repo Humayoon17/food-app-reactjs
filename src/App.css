@@ -22,6 +22,21 @@
     justify-content: space-between;
 }
 
+.title>.icon {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.title>.icon>h4 {
+    font-size: 20px;
+}
+
+.left-side .title img {
+    width: 50px;
+    height: 50px;
+}
+
 
 /* Right Side */
 
