@@ -1,0 +1,30 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom: .5rem;
+}
+
+.menu-item:hover .menu-icon {
+    background-color: #e7ad27;
+}
+
+.menu-item .menu-icon {
+    padding: .2;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.menu-item .item-title {
+    margin-left: .7rem;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.menu-active {
+    background-color: #e7ad27;
+}

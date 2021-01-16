@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header>.search {
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.search .search-icon {
+    color: rgba(36, 36, 218, 0.85);
+    margin-right: 20px;
+}
+
+.search>input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+}

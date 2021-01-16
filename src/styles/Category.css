@@ -1,0 +1,28 @@
+.category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    column-gap: 1.5rem;
+    row-gap: .2rem;
+    padding: 20px;
+    place-items: center;
+}
+
+.category .category-item {
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px rgb(201, 198, 198);
+    cursor: pointer;
+    text-overflow: ellipsis;
+}
+
+.category-item>h4 {
+    text-overflow: ellipsis;
+}
+
+.active {
+    background-color: rgb(226, 226, 20) !important;
+}
