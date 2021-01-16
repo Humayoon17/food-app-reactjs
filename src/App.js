@@ -156,7 +156,7 @@ function App() {
           <h4>Categories</h4>
           <span className='see-more'>See All</span>
         </div>
-        <div className='category'>
+        <div className='category' id='cat'>
           <Cat
             loading={categoryLoading}
             handleOnCategoryClick={handleOnCategoryClick}

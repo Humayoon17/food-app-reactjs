@@ -13,7 +13,6 @@ export default function Cat({ handleOnCategoryClick, categories, loading }) {
         if (index < 8) {
           return (
             <Category
-              isActive={false}
               key={category.idCategory}
               onClick={handleOnCategoryClick}
               name={category.strCategory}
